@@ -16,5 +16,7 @@ def generar_pagina():
 
     with open('aves_chile.html', 'w') as f:
         f.write(pagina_web)
+    
+
 
 print("Pagina generada exitosamente.")
